@@ -1,0 +1,57 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+MAIN COLOR: #087f5b
+GRAY COLOR: #343a40
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: inter, Arial, sans-serif;
+  line-height: 1;
+  color: #343a40;
+}
+
+.accordion {
+  margin: 100px auto;
+  width: 700px;
+}
+
+.accordion-item {
+}
+
+.accordion-item-number,
+.accordion-item-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #087f5b;
+}
+
+.pointer-icon {
+  width: 24px;
+  stroke: #087f5b;
+}
+
+.accordion-info-text p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.accordion-info-text ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 20px;
+  color: #868e96;
+}
