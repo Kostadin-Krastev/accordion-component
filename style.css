@@ -23,12 +23,22 @@ body {
   color: #343a40;
 }
 
-.accordion {
+.accordion-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   margin: 100px auto;
   width: 700px;
 }
 
 .accordion-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  column-gap: 24px;
+  row-gap: 32px;
+  padding: 24px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
 }
 
 .accordion-item-number,
@@ -43,6 +53,10 @@ body {
   stroke: #087f5b;
 }
 
+.accordion-info-text {
+  grid-column: 2;
+}
+
 .accordion-info-text p {
   line-height: 1.6;
   margin-bottom: 24px;
@@ -54,4 +68,18 @@ body {
   gap: 12px;
   margin-left: 20px;
   color: #868e96;
+}
+
+/* CLOSE and OPEN STATE */
+.close-item {
+  display: none;
+}
+
+.close-item-color {
+  color: #ced4da;
+  stroke: #ced4da;
+}
+
+.open-item {
+  border-top: 4px solid #087f5b;
 }
