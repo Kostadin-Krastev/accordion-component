@@ -39,6 +39,10 @@ body {
   color: #087f5b;
 }
 
+.accordion-item-title:hover {
+  color: #087f5b;
+}
+
 .pointer-icon {
   width: 24px;
   stroke: #087f5b;
